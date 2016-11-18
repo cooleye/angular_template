@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html ng-app="projectDemo">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+      <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <link rel="stylesheet" href="app/common/css/main.css" media="screen" title="no title">
+    <script src="bower_components/angular/angular.min.js"></script>
+    <script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+    <script src="bower_components/angular-css/angular-css.min.js"></script>
+  </head>
+  <body>
+
+    <footer>
+        <div><a ui-sref="home" ui-sref-active="active">home</a></div>
+        <div><a ui-sref="cate" ui-sref-active="active">cate</a></div>
+        <div><a ui-sref="cart" ui-sref-active="active">cart</a></div>
+        <div><a ui-sref="mine" ui-sref-active="active">mine</a></div>
+    </footer>
+
+    <div ui-view></div>
+    <script src="app/app.js"></script>
+    <script src="app/pages/home/home.js"></script>
+    <script src="app/pages/cate/cate.js"></script>
+    <script src="app/pages/cart/cart.js"></script>
+    <script src="app/pages/mine/mine.js"></script>
+  </body>
+</html>

@@ -1,0 +1,22 @@
+{
+  "name": "ProjectTemplate",
+  "authors": [
+    "cooleye <iscooleye@163.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.8",
+    "angular-ui-router": "^0.3.2",
+    "angular-css": "^1.0.8"
+  }
+}
