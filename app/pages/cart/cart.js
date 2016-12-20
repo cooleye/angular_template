@@ -5,6 +5,6 @@ angular.module('projectDemo.cartPage',[])
   .state({
     name:'cart',
     url:'/cart',
-    templateUrl:'app/pages/cart/cart.html'
+    templateUrl:'pages/cart/cart.html'
   })
 })

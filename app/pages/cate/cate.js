@@ -5,6 +5,6 @@ angular.module('projectDemo.catePage',[])
   .state({
     name:'cate',
     url:'/cate',
-    templateUrl:'app/pages/cate/cate.html'
+    templateUrl:'pages/cate/cate.html'
   })
 })
