@@ -5,6 +5,6 @@ angular.module('projectDemo.minePage',[])
   .state({
     name:'mine',
     url:'/mine',
-    templateUrl:'app/pages/mine/mine.html'
+    templateUrl:'pages/mine/mine.html'
   })
 })
