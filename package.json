@@ -1,0 +1,24 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "* git clone https://github.com/cooleye/angular_template.git * npm install",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cooleye/angular_template.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cooleye/angular_template/issues"
+  },
+  "homepage": "https://github.com/cooleye/angular_template#readme",
+  "dependencies": {
+    "angular": "^1.5.8",
+    "angular-css": "^1.0.8",
+    "angular-ui-router": "^0.3.2"
+  }
+}
